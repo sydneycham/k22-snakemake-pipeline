@@ -1,0 +1,3 @@
+id	TYPE	PREFIX	R1	R2	I1	I2
+917	RNA	SCC240606ON_Gene_Expression_library	/home/exacloud/gscratch/NikolovaLab/hamiltsy/k22_pipeline/SCC240606ON/SCC240606ON_Gene_Expression_library_24_00330_S7_L001_R1_001.fastq.gz	/home/exacloud/gscratch/NikolovaLab/hamiltsy/k22_pipeline/SCC240606ON/SCC240606ON_Gene_Expression_library_24_00330_S7_L001_R2_001.fastq.gz	tesI	testi2
+917	PROTEIN	SCC240606ON_Surface_protein_library	/home/exacloud/gscratch/NikolovaLab/hamiltsy/k22_pipeline/SCC240606ON/SCC240606ON_Surface_protein_library_24_00279_S8_L001_R1_001.fastq.gz	/home/exacloud/gscratch/NikolovaLab/hamiltsy/k22_pipeline/SCC240606ON/SCC240606ON_Surface_protein_library_24_00279_S8_L001_R2_001.fastq.gz	tesI	testi2

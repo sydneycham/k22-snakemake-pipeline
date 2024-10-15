@@ -1,0 +1,35 @@
+# [gene-expression]
+# reference,/home/exacloud/gscratch/NikolovaLab/hamiltsy/k22_pipeline/refdata-gex-GRCh38-2020-A
+# cmo-set,/home/exacloud/gscratch/NikolovaLab/hamiltsy/k22_pipeline/cmo917.csv
+# create-bam,true
+# 
+# [feature]
+# reference,/home/exacloud/gscratch/NikolovaLab/kongg/nikolova2/multi/config/feature-ref.csv
+# 
+# [libraries]
+# fastq_id,fastqs,feature_types
+# SCC240606ON_Gene_Expression_library_24_00330,/home/exacloud/gscratch/NikolovaLab/hamiltsy/k22_pipeline/SCC240606ON,Gene Expression
+# SCC240606ON_Surface_protein_library_24_00279,/home/exacloud/gscratch/NikolovaLab/hamiltsy/k22_pipeline/SCC240606ON,Antibody Capture
+# SCC240606ON_Surface_protein_library_24_00279,/home/exacloud/gscratch/NikolovaLab/hamiltsy/k22_pipeline/SCC240606ON/Multiplexing_capture,Multiplexing Capture
+# 
+# [samples]
+# sample_id,cmo_ids
+# DMSO,917_DMSO
+# Aza,917_Aza
+# SNDX,917_SNDX
+# Ven,917_Ven
+# VenA,917_VenA
+# VenS,917_VenS
+# VenAS,917_VenAS
+@include "rna/sc_multi_cs.mro"
+
+call SC_MULTI_CS(
+    sample_id    = "cellranger_output_917",
+    sample_desc  = "",
+    config       = {
+        bytes: null,
+        file:  "/home/exacloud/gscratch/NikolovaLab/hamiltsy/k22_pipeline/final_config917.csv",
+    },
+    config_hash  = "258e62a8b3bae0f9702909ad75648b82b57214c2b1bdc54d635245c15a63fa11",
+    no_preflight = false,
+)

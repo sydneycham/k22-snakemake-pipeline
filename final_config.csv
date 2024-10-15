@@ -1,0 +1,23 @@
+[gene-expression]
+reference,/home/exacloud/gscratch/NikolovaLab/hamiltsy/k22_pipeline/refdata-gex-GRCh38-2020-A
+cmo-set,cmo{samples}.csv
+create-bam,true
+
+[feature]
+reference,/home/exacloud/gscratch/NikolovaLab/kongg/nikolova2/multi/config/feature-ref.csv
+
+[libraries]
+fastq_id,fastqs,feature_types
+SCC240606ON_Gene_Expression_library_24_00330,/home/exacloud/gscratch/NikolovaLab/hamiltsy/k22_pipeline/SCC240606ON,Gene Expression
+SCC240606ON_Surface_protein_library_24_00279,/home/exacloud/gscratch/NikolovaLab/hamiltsy/k22_pipeline/SCC240606ON,Antibody Capture
+SCC240606ON_Surface_protein_library_24_00279,/home/exacloud/gscratch/NikolovaLab/hamiltsy/k22_pipeline/SCC240606ON/Multiplexing_capture,Multiplexing Capture
+
+[samples]
+sample_id,cmo_ids
+DMSO,916_DMSO
+Aza,916_Aza
+SNDX,916_SNDX
+Ven,916_Ven
+VenA,916_VenA
+VenS,916_VenS
+VenAS,916_VenAS
